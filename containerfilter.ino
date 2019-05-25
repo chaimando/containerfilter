@@ -52,7 +52,6 @@ void loop ( ) {
      // sms text 
 
      char txtMsg = “El contenedor está lleno ” ; 
-     readSerial( txtMsg ) ; 
      Serial.println ( "ENVIANDO" ) ; 
      Serial.println ( ) ; 
      Serial.println ( "Mensaje:" ) ; 
