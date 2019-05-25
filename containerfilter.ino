@@ -46,7 +46,6 @@ void loop ( ) {
   lectura = digitalRead(pinReceptor);
   if(lectura == 1) {
      char remoteNum “4427896543” ;  // número de teléfono para enviar sms
-     readSerial ( remoteNum ) ; 
      Serial . println ( remoteNum ) ; 
 
      // sms text 
